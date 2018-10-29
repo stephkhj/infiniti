@@ -1,0 +1,456 @@
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	color: white;
+	line-height: 40px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+h3{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+a{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.btn-default{
+    border-radius: 40px;
+    background-color:#E3383A;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding:12px;
+    font-family:font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-color: transparent;
+}
+/*=======================================
+=            HEADER SECTION            =
+=======================================*/
+
+.logos{
+    height:100px;
+    margin-left:56px;
+    padding-top: 30px;
+}
+.nissanlogo{
+    float: left;
+    padding-right: 41px;
+    
+}
+.morrey {
+    float:left;
+    margin-top: 12px;
+}
+.takethechallenge{
+   float: right;
+    margin-right: 60px;
+    background-color: #E3383A;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    margin-top: 12px;
+   
+}
+.takethechallenge h3{
+    font-family:font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.morrey img{
+    padding-left: 41px;
+    padding-right: 41px;
+    border-left: 1px solid #707070;
+}
+/*=======================================
+=            HERO SECTION            =
+=======================================*/
+
+.qashhero{
+    clear: both;
+    background:url('../img/qx60hero.png')no-repeat;
+	background-size: cover;
+    height:594px;
+    color:white;
+    text-align: center;
+}
+.qashhero h1{
+    padding-top: 70px;
+    margin-left: 70px;
+    width:500px;
+    /*text-shadow: 0px 1px 1px #4E4E4E;*/
+
+}
+.qashhero h2{
+    padding-top: 350px;
+
+}
+.hero .col-lg-6 {
+    padding: 0px;
+    
+}
+.roguehero{
+    background:url('../img/qx80hero.png')no-repeat;
+	background-size: cover;
+    height:594px;
+    color:white;
+    text-align: center;
+}
+.roguehero h1{
+    padding-top: 70px;
+    width:500px;
+    margin-left: 100px;
+    /*text-shadow: 0px 1px 1px #4E4E4E;*/
+}
+.roguehero h2{
+    padding-top: 350px;
+
+}
+
+
+
+/*=======================================
+=      DARE TO COMPARE SECTION            =
+=======================================*/
+.daretocompare{
+    text-align: center;
+    background-color: #E3383A;
+    color:white;
+    padding: 30px;
+}
+.compareimgqash{
+    background:url('../img/qx60compare.png')no-repeat;
+	background-size: cover;
+    height:770px;
+    padding: 0;
+    color:white;
+    text-align: center;
+}
+.compareimgqash h2{
+    padding-top: 330px;
+    padding-bottom: 40px;
+    margin-top: 0;
+}
+.compareimgqash p{
+  padding-left: 30px;
+    padding-right: 30px;
+}
+.compareimgqash .btn-default{
+    margin-top: 80px;
+    margin-right: 400px;
+}
+.compareimgrogue{
+    background:url('../img/qx80compare.png')no-repeat;
+	background-size: cover;
+    height:770px;
+    padding: 0;
+    color:white;
+    text-align: center;
+    
+}
+.compareimgrogue h2{
+    padding-top: 290px;
+    margin-top: 0;
+    padding-bottom: 40px;
+}
+.compareimgrogue p{
+  padding-left: 30px;
+    padding-right: 30px;
+}
+
+.compareimgrogue .btn-default{
+    margin-top: 80px;
+    margin-left: 380px;
+}
+.daretocomparerogue {
+    padding: 0;
+}
+.daretocompareqash{
+    padding: 0;
+}
+.qashicons{
+    padding-bottom: 5px;
+    text-align: center;
+}
+.rogueicons{
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.col-lg-5{
+    height: 100%;
+}
+.col-lg-7{
+    height: 100%;
+}
+.othercars1{
+    margin-top: 50px;
+    padding-left: 40px;
+    
+}
+.othercars2{
+    margin-top: 100px;
+     padding-left: 10px
+}
+.othercars1 h5{
+    text-align: center;
+}
+.othercars2 h5{
+    text-align: center;
+}
+
+.othercars2 .col-lg-5{
+    text-align: center;
+}
+.othercars1 .col-lg-5{
+    text-align: center;
+}
+.othercars1 .car {
+    padding-top: 50px;
+}
+.othercars1 .car .col-lg-7 {
+    padding-top: 5px;
+}
+.othercars2 .car {
+    padding-top: 50px;
+}
+.othercars2 .car .col-lg-7 {
+    padding-top: 5px;
+}
+
+/*=======================================
+=        CAR DETAILS SECTION            =
+=======================================*/
+.qashdetails {
+    margin-left:20px;
+   width:555px;
+    border-right: 1px solid #707070;
+    
+}
+.roguedetails{
+    padding-left: 100px;
+}
+
+.cardetails {
+    margin-left: 65px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.cardetails ul {
+  list-style: none;
+    padding-top: 30px;
+}
+.roguedetails ul {
+    padding-top: 95px;
+}
+.roguedetails img{
+    margin-top: 30px;
+}
+
+li {
+	padding-left: 1.28571429em;
+	text-indent: -1.10em;
+	margin-bottom: 13px;
+}
+
+.cardetails ul li:before {
+   content:"\2714\0020";
+}
+
+.col-lg-12{
+    padding: 0px;
+}
+.col-lg-6{
+    padding: 0px;
+}
+/*=======================================
+=            REVIEWS SECTION            =
+=======================================*/
+.reviews{
+    text-align: center;
+    margin-top: 60px;
+}
+.reviews h3{
+    padding-bottom: 20px;
+}
+.reviews h2{
+    margin-top: 40px;
+}
+.qashreview{
+    background:url('../img/qx60reviews.png')no-repeat;
+	background-size: cover;
+    height:419px;
+        
+}
+.roguereview{
+    background:url('../img/qx80reviews.png')no-repeat;
+	background-size: cover;
+    height:419px;
+        
+}
+.reviews .col-lg-6 {
+    padding: 0px;
+    
+    
+}
+.qashreview img {
+    margin-right: 470px;
+    margin-top: 20px;
+}
+.actualreviews{
+    text-align: center;
+    
+}
+.line .col-lg-6 {
+    border-left: 1px solid #707070;
+}
+.actualreviews img {
+    padding: 12px;
+    margin-top: 50px;
+}
+.actualreviews p {
+   width: 450px;
+   margin-left: 100px
+}
+.actualreviews1{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.actualreviews1 img {
+    padding: 12px;
+    margin-top: 20px;
+}
+.actualreviews1 p {
+   width: 450px;
+   margin-left: 100px
+}
+
+
+
+/*=======================================
+=            OFFER SECTION            =
+=======================================*/
+.offer{
+     margin-top: 70px;
+}
+
+
+.offer .col-lg-6 {
+    padding: 0px;
+   
+}
+
+.offerqashimg{
+    background:url('../img/qx60offers.png')no-repeat;
+	background-size: cover;
+    height: 771px;
+}
+.offerrogueimg{
+    background:url('../img/qx80offers.png')no-repeat;
+	background-size: cover;
+    height: 771px;
+}
+.offerqash{
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.offerrogue{
+    text-align: center;
+    margin-top: 100px;
+}
+.offerqash h4{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.offerqash p {
+    margin-bottom: 50px;
+    font-family:font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:black;
+   
+}
+.offerrogue h4{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.offerrogue p {
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:black; 
+   
+}
+
+/*=======================================
+=            FORM SECTION            =
+=======================================*/
+.form-section{
+    background-color: black;
+    height:760px;
+    color:white;
+    text-align: center;
+}
+.form-section h3{
+    margin-top: 189px;
+}
+/*=======================================
+=            FOOTER SECTION            =
+=======================================*/
+.foot1 p{
+    width:250px;
+    float:right;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-right: 50px;
+     color:#4E4E4E;
+}
+.foot1{
+    height: 150px;
+}
+ 
+
+.foot2 {
+    padding: 30px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    clear:both; 
+}

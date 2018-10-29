@@ -1,0 +1,729 @@
+body {
+    overflow-x: hidden;
+}
+
+.web h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    color: black;
+    line-height: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.web h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.web h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.web h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.web h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.web a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.web p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.web .btn-default {
+    border-radius: 40px;
+    background-color: #836559;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 12px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    border-color: transparent;
+}
+
+
+/*=======================================
+=            HEADER SECTION            =
+=======================================*/
+
+.web .logos {
+    height: 100px;
+    padding-top: 30px;
+    -webkit-box-shadow: -4px 4px 61px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: -4px 4px 61px 0px rgba(0, 0, 0, 0.48);
+    box-shadow: -1px 2px 10px 0px rgba(0, 0, 0, 0.48);
+}
+
+.web .nissanlogo {
+    float: left;
+    padding-right: 41px;
+    padding-left: 41px;
+}
+
+.web .morrey {
+    float: left;
+    margin-top: 12px;
+}
+
+.web .tour {
+    float: right;
+    margin-right: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.web .takethechallenge h3 {
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #E3383A;
+}
+
+.web .takethechallenge .phone {
+    color: black;
+}
+
+.web .morrey img {
+    padding-left: 41px;
+    padding-right: 41px;
+    border-left: 1px solid #707070;
+}
+
+
+/*=======================================
+=            HERO SECTION            =
+=======================================*/
+
+.web .qashhero {
+    clear: both;
+    margin-top: 70px;
+    background: url('../img/qx602.png')no-repeat center;
+    background-size: height: 594px;
+    color: black;
+    text-align: center;
+}
+
+.web .qashhero h1 {
+    position: absolute;
+    top: -40px;
+    padding: 70px 100px 70px 100px;
+    /*text-shadow: 0px 1px 1px #4E4E4E;*/
+}
+
+.web .qashhero h2 {
+    padding-top: 390px;
+    padding-bottom: 20px;
+}
+
+.web .hero .col-lg-6 {
+    padding: 0px;
+}
+
+.web .roguehero {
+    background: url('../img/qx802.png')no-repeat center;
+    margin-top: -10px;
+    height: 594px;
+    color: black;
+    text-align: center;
+}
+
+.web .roguehero h1 {
+    position: absolute;
+    top: -40px;
+    padding: 70px 130px 70px 130px;
+    /*text-shadow: 0px 1px 1px #4E4E4E;*/
+}
+
+.web .roguehero h2 {
+    padding-top: 450px;
+    padding-bottom: 20px;
+}
+
+
+/*=======================================
+=      DARE TO COMPARE SECTION            =
+=======================================*/
+
+.web .daretocompare {
+    text-align: center;
+    background-color: #836559;
+    color: white;
+    padding: 30px;
+}
+
+.web .compareimgqash {
+    background: url('../img/qx60compare.png')no-repeat;
+    background-size: cover;
+    height: 770px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.web .compareimgqash h2 {
+    padding-top: 300px;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.web .compareimgqash h4 {
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.web .compareimgqash p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.web .compareimgqash .btn-default {
+    margin-top: 80px;
+    margin-right: 400px;
+}
+
+.web .compareimgrogue {
+    background: url('../img/qx80compare.png')no-repeat;
+    background-size: cover;
+    height: 770px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.web .compareimgrogue h2 {
+    padding-top: 280px;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.web .compareimgrogue h4 {
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.web .compareimgrogue p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.web .compareimgrogue .btn-default {
+    margin-top: 80px;
+    margin-left: 380px;
+}
+
+.web .daretocomparerogue {
+    padding: 0;
+}
+
+.web .daretocompareqash {
+    padding: 0;
+}
+
+.web .qashicons {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.web .rogueicons {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.web .col-lg-5 {
+    height: 100%;
+}
+
+.web .col-lg-7 {
+    height: 100%;
+}
+
+.web .othercars1 {
+    padding-left: 40px;
+}
+
+.web .othercars2 {
+    margin-top: 50px;
+    padding-left: 10px
+}
+
+.web .othercars1 h5 {
+    text-align: center;
+}
+
+.web .othercars2 h5 {
+    text-align: center;
+}
+
+.web .othercars2 .col-lg-5 {
+    text-align: center;
+}
+
+.web .othercars1 .col-lg-5 {
+    text-align: center;
+}
+
+.web .othercars1 .car {
+    padding-top: 50px;
+}
+
+.web .othercars1 .car .col-lg-7 {
+    padding-top: 5px;
+}
+
+.web .othercars2 .car {
+    padding-top: 50px;
+}
+
+.web .othercars2 .car .col-lg-7 {
+    padding-top: 5px;
+}
+
+
+/*=======================================
+=        CAR DETAILS SECTION            =
+=======================================*/
+
+.web .cardetails .col-lg-6:first-child {
+    border-right: 1px solid black;
+}
+
+.web .qashdetails {
+    padding-right: 50px;
+}
+
+.web .roguedetails {
+    padding-left: 100px;
+}
+
+.web .cardetails {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web .cardetails ul {
+    list-style: none;
+    padding-top: 30px;
+}
+
+.web .roguedetails ul {
+    padding-top: 51px;
+}
+
+.web .roguedetails img {
+    margin-top: 30px;
+}
+
+.web li {
+    padding-left: 1.28571429em;
+    text-indent: -1.10em;
+    margin-bottom: 13px;
+}
+
+.web .cardetails ul li:before {
+    content: "\2714\0020";
+}
+
+.web .col-lg-12 {
+    padding: 0px;
+}
+
+.web .col-lg-6 {
+    padding: 0px;
+}
+
+
+/*=======================================
+=            REVIEWS SECTION            =
+=======================================*/
+
+.web .reviews {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.web .reviews h3 {
+    padding-bottom: 20px;
+}
+
+.web .reviews h2 {
+    margin-top: 40px;
+}
+
+.web .qashreview {
+    background: url('../img/qx60reviews.png')no-repeat;
+    background-size: cover;
+    height: 419px;
+}
+
+.web .roguereview {
+    background: url('../img/qx80reviews.png')no-repeat;
+    background-size: cover;
+    height: 419px;
+}
+
+.web .reviews .col-lg-6 {
+    padding: 0px;
+}
+
+.web .qashreview img {
+    margin-right: 470px;
+    margin-top: 20px;
+}
+
+.web .actualreviews {
+    text-align: center;
+}
+
+.web .line .col-lg-6 {
+    border-left: 1px solid #707070;
+}
+
+.web .actualreviews img {
+    padding: 12px;
+    margin-top: 50px;
+}
+
+.web .actualreviews p {
+    text-align: center;
+    padding: 0 47px;
+}
+
+.web .actualreviews1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.web .actualreviews1 img {
+    padding: 12px;
+    margin-top: 42px;
+}
+
+.web .actualreviews1 p {
+    text-align: center;
+    padding: 0 47px;
+}
+
+
+/*=======================================
+=            OFFER SECTION            =
+=======================================*/
+
+.web .offer {
+    margin-top: 70px;
+}
+
+.web .offer .col-lg-6 {
+    padding: 0px;
+}
+
+.web .offerqashimg {
+    background: url('../img/qx60offers.png')no-repeat;
+    background-size: cover;
+    height: 771px;
+}
+
+.web .offerrogueimg {
+    background: url('../img/qx80offers.png')no-repeat;
+    background-size: cover;
+    height: 771px;
+}
+
+.web .offerqash {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.web .offerrogue {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.web .offerqash h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #836559;
+}
+
+.web .offerqash p {
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+.web #offerbtn {
+    margin-top: 30px;
+}
+
+.web .offerrogue h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #836559;
+}
+
+.web .offerrogue p {
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+
+/*=======================================
+=            FORM SECTION            =
+=======================================*/
+
+.web .form-section {
+    background-color: black;
+    height: 760px;
+    color: white;
+    text-align: center;
+}
+
+.web .form-section h3 {
+    margin-top: 189px;
+}
+
+
+/*=======================================
+=            FOOTER SECTION            =
+=======================================*/
+
+.web .foot1 p {
+    width: 250px;
+    float: right;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-right: 50px;
+    color: #4E4E4E;
+}
+
+.web .foot1 {
+    height: 150px;
+}
+
+.web .logosfooter {
+    height: 100px;
+    padding-top: 30px;
+}
+
+.web .foot2 {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    clear: both;
+}
+
+
+/*===========================================
+    TEST DRIVE
+==========================*/
+
+.web .form-section {
+    min-height: 100%;
+    min-height: 100vh;
+    padding: 30vh 50px 50px 50px;
+}
+
+.web .form-section form {
+    margin-top: 40px;
+}
+
+.web .form-section h3 {
+    margin-top: 0;
+}
+
+#testdrive,
+#testdrive input {
+    background-color: transparent;
+}
+
+#testdrive label {
+    display: none;
+}
+
+#testdrive h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+#testdrive h1,
+#testdrive input {
+    color: #fff;
+}
+
+#testdrive .form-item {
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 5%;
+    overflow: hidden;
+    height: 3em;
+}
+
+#testdrive input {
+    font-size: 1.5em;
+    color: #fff !important;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.path-testdrive {
+    margin: 0;
+}
+
+.path-testdrive form {
+    clear: both;
+    padding: 0px 10px 0 10px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: #333;
+    min-height: 100vh;
+}
+
+.path-testdrive .form-entry {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#testdrive .spacer {
+    clear: both;
+}
+
+#testdrive .form-submit {
+    clear: both;
+    display: block;
+    margin: 40px auto 100px auto;
+}
+
+#testdrive .form-submit:after {
+    content: ' \00bb'
+}
+
+#testdrive-footer {
+    width: 100%;
+    background-color: #fff;
+    margin: 0px 0 0 0;
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+#testdrive-footer .row {
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+}
+
+#testdrive-footer img {
+    width: 300px;
+    max-width: 40%;
+    margin: auto;
+}
+
+#testdrive-footer .left {
+    margin: 20px 0;
+    text-align: center;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    height: auto;
+}
+
+#testdrive-footer .left img {
+    width: 300px;
+    max-width: 40%;
+    margin: auto;
+}
+
+#testdrive-footer .right {
+    float: left;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    border-left: 1px solid #d0d0d0;
+    box-sizing: border-box;
+    width: 50%;
+    color: #fff;
+    height: auto;
+}
+
+#thank-you {
+    background-color: #fff;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#thank-you h1 {
+    margin-top: 15vh;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.testdrive-button {
+    position: absolute !important;
+    top: 28%;
+    right: 5%;
+}
+
+.testdrive-button .button {
+    background-color: #fff;
+    color: #000;
+}
+
+.back-to-home {
+    text-align: center;
+}
+
+.web .form-section {
+    position: relative;
+}
+
+.web .form-section .back-to-top {
+    position: absolute !important;
+    top: 5%;
+    right: 5%;
+    margin-top: 0;
+}
+
+.web .form-section .btn-default:hover,
+.web .form-section .button:hover {
+    background-color: #fff !important;
+    color: #000;
+}
